@@ -1,0 +1,13 @@
+package courier
+
+import "time"
+
+type Courier struct {
+	ID            int64
+	Name          string
+	Phone         string
+	Status        string
+	TransportType string
+	CreatedAt     time.Time
+	UpdatedAt     time.Time
+}
